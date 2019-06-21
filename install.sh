@@ -2,13 +2,13 @@
 
 # Dotfiles vars
 export DOTFILES="${HOME}/.dotfiles"
-export DOTFILES_INSTALLER = "${DOTFILES}/scripts"
+export DOTFILES_INSTALLER="${DOTFILES}/scripts"
 
 source ${DOTFILES}/scripts/utils
 
 ask_for_sudo
 
-print_in_purple 'Running installers'
+print_in_purple 'Running installers\n'
 
 ${DOTFILES_INSTALLER}/brew
 ${DOTFILES_INSTALLER}/xcode
