@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+source ${DOTFILES}/scripts/utils
+
+print_in_yellow '\nSetting up - shell - configuration... '
+
+ln -sf ${DOTFILES}/apps/.bash_profile ~/.bash_profile
+
+source $HOME/.bash_profile
+
+print_success

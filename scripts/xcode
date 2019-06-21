@@ -1,0 +1,22 @@
+# #!/bin/bash
+source ${DOTFILES}/scripts/utils
+
+###############################################################################
+# OS X Updates
+###############################################################################
+
+ask_for_confirmation 'OS X Softwares updating and installing Xcode Command Line tools?'
+
+if answer_is_yes; then
+  # Check and install any remaining software updates.
+  sudo softwareupdate --install --all
+
+  # Install the Xcode Command Line Tools.
+  xcode-select --install
+  sudo xcodebuild -license accept
+
+  print_success 'OS X Softwares installed and updated.\n'
+else
+  print_success 'OS X Softwares skipping.\n'
+fi
+

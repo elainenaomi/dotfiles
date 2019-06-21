@@ -1,0 +1,10 @@
+[
+  { "keys": ["super+shift+r"], "command": "reveal_in_side_bar"},
+  { "keys": ["super+shift+c"], "command": "copy_path" },
+  { "keys": ["super+shift+."], "command": "erb" },
+  { "keys": ["super+shift+'"], "command": "copy_reference" },
+  { "keys": ["super+down"], "command": "goto_definition" },
+  { "keys": ["super+up"], "command": "jump_back" },
+  { "keys": ["super+e"], "command": "mix_format_file" }
+
+]

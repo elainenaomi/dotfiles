@@ -1,0 +1,58 @@
+# tap 'caskroom/versions'
+# tap 'homebrew/bundle'
+# tap 'homebrew/core'
+# tap 'homebrew/services'
+
+brew 'bash'
+brew 'bash-completion'
+brew 'git'
+
+brew 'postgresql', restart_service: true
+brew 'redis', restart_service: :changed
+
+# asdf dependencies
+brew 'asdf'
+brew 'coreutils'
+brew 'automake'
+brew 'autoconf'
+brew 'openssl'
+brew 'libyaml'
+brew 'readline'
+brew 'libxslt'
+brew 'libtool'
+brew 'unixodbc'
+brew 'unzip'
+brew 'curl'
+
+cask 'boostnote'
+cask 'clockify'
+cask 'gitx'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'karabiner-elements'
+cask 'iterm2'
+cask 'rescuetime'
+cask 'recordit'
+cask 'sequel-pro'
+cask 'slack'
+cask 'spectacle'
+cask 'spotify'
+cask 'sublime-text'
+cask 'visual-studio-code'
+cask 'fliqlo'
+cask 'xmind'
+cask 'firefox'
+cask 'grammarly'
+cask 'psequel'
+cask 'authy'
+cask 'adobe-acrobat-reader'
+
+brew 'mas'
+
+mas 'Keynote', id: 409183694
+mas 'Trello', id: 1278508951
+mas 'Wunderlist', id: 410628904
+mas 'Shush', id: 496437906
+
+brew 'chromedriver'
+brew 'graphviz'

@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Reference: https://github.com/ulissesalmeida/dotfiles/blob/master/script/asdf
+
+source ${DOTFILES}/scripts/utils
+
+print_in_purple "ASDF setup\n"
+
+# Install via homebrew
+print_in_yellow "Copying files to profile\n"
+echo -e '\n. $HOME/.asdf/asdf.sh' >> $HOME/.bash_profile
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> $HOME/.bash_profile
+source $HOME/.bash_profile
+print_success "Profile setup done \n"
+
+
+print_in_yellow "Installing plugins\n"
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git && print_success "Ruby"
+asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git && print_success "Erlang"
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git && print_success "Elixir"
+print_success "Plugins done \n"
+
+print_in_yellow "Install the languages \n"
+cd $HOME && asdf install
+
+print_success "ASDF setup done"

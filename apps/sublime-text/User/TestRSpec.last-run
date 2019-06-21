@@ -1,0 +1,13 @@
+{
+	"command_hash":
+	{
+		"encoding": "utf-8",
+		"env":
+		{
+		},
+		"file_regex": "([^ ]*\\.rb):?(\\d*)",
+		"shell_cmd": "( cd /Users/elainewatanabe/dev/_/youse/policy-service && ./bin/rspec app/models/endorsement_operation.rb)",
+		"syntax": "Packages/TestRSpec/themes/TestConsole.tmLanguage",
+		"working_dir": "/Users/elainewatanabe/dev/_/youse/policy-service"
+	}
+}

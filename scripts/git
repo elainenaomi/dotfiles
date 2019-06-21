@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+source ${DOTFILES}/scripts/utils
+
+print_in_yellow '\nSetting up - git - configuration... '
+
+# Create symbolic link to default files
+ln -sf ${DOTFILES}/apps/git/.gitconfig ~/.gitconfig
+ln -sf ${DOTFILES}/apps/git/.gitconfig.work ~/.gitconfig.work
+
+print_success

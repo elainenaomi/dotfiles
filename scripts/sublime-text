@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+source ${DOTFILES}/scripts/utils
+
+print_in_yellow '\nSetting up - Sublime Text - configuration... '
+
+sublime_path="${HOME}/Library/Application Support/Sublime Text 3/Packages"
+
+mv "$sublime_path/User" "$sublime_path/User.bkp" &> /dev/null
+ln -sf "${DOTFILES}/apps/sublime-text/User" "$sublime_path/User"
+
+print_success

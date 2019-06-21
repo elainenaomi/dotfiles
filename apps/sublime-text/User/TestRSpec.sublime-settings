@@ -1,0 +1,12 @@
+{
+  // create spec snippet defined line by line
+  "create_spec_snippet": [
+    "# frozen_string_literal: true",
+    "",
+    "require 'rails_helper'",
+    "",
+    "RSpec.describe ${class_name} do",
+    "",
+    "end",
+  ]
+}

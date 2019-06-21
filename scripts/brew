@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# From: https://github.com/diegorv/dotfiles/blob/master/installers/brew
+
+# Load utils
+source ${DOTFILES}/scripts/utils
+
+print_in_purple "Homebrew setup\n"
+
+# Install/Update Homebrew
+if cmd_exists 'brew'; then
+  print_success 'Updating Brew\n'
+  brew update
+else
+  print_success 'Installing Brew\n'
+  /usr/bin/ruby -e \
+    "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+print_success "Homebrew setup done\n"
+
+# Create symlink of dotfiles Brewfile to Home
+ln -s ${DOTFILES}/apps/brew/Brewfile ~/.Brewfile
+
+# Install from local Brewfile
+ask_for_confirmation 'Would you like to install all apps from Brewfile?'
+
+if answer_is_yes; then
+  brew bundle --global
+  print_success 'Brew and all apps installed\n'
+else
+  print_success 'Only Brew installed\n'
+fi
+
+
