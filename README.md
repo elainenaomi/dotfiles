@@ -7,5 +7,4 @@ macOS and developer environment preferences
 ```
 git clone https://github.com/elainenaomi/dotfiles.git ~/.dotfiles &&\
 ~/.dotfiles/install.sh
-
 ```
