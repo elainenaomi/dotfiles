@@ -5,3 +5,12 @@
   s = status
   br = branch
   fpr = fetch --prune
+
+[github]
+  user = elainenaomi
+
+[include]
+  path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/dev/plataformatec/"]
+  path = ~/.gitconfig.work
