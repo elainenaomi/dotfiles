@@ -26,7 +26,8 @@ brew 'curl'
 
 cask 'boostnote'
 cask 'clockify'
-cask 'gitx'
+cask 'rowanj-gitx'
+cask 'fork'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'karabiner-elements'
@@ -46,6 +47,7 @@ cask 'grammarly'
 cask 'psequel'
 cask 'authy'
 cask 'adobe-acrobat-reader'
+cask 'chromedriver'
 
 brew 'mas'
 
@@ -54,5 +56,4 @@ mas 'Trello', id: 1278508951
 mas 'Wunderlist', id: 410628904
 mas 'Shush', id: 496437906
 
-brew 'chromedriver'
 brew 'graphviz'
