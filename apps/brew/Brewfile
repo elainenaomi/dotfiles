@@ -55,5 +55,6 @@ mas 'Keynote', id: 409183694
 mas 'Trello', id: 1278508951
 mas 'Wunderlist', id: 410628904
 mas 'Shush', id: 496437906
+mas 'Lastpass Password Manager', id:926036361
 
 brew 'graphviz'
