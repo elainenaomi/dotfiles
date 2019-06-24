@@ -49,6 +49,7 @@ cask 'psequel'
 cask 'authy'
 cask 'adobe-acrobat-reader'
 cask 'chromedriver'
+cask 'graphql-ide'
 
 brew 'mas'
 
