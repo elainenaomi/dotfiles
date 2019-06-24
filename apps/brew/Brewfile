@@ -56,5 +56,6 @@ mas 'Trello', id: 1278508951
 mas 'Wunderlist', id: 410628904
 mas 'Shush', id: 496437906
 mas 'Lastpass Password Manager', id:926036361
+mas 'Clocker', id: 1056643111
 
 brew 'graphviz'
