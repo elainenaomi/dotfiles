@@ -23,6 +23,7 @@ brew 'libtool'
 brew 'unixodbc'
 brew 'unzip'
 brew 'curl'
+brew 'gpg'
 
 cask 'boostnote'
 cask 'clockify'

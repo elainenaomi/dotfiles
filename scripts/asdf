@@ -17,6 +17,9 @@ print_in_yellow "Installing plugins\n"
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git && print_success "Ruby"
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git && print_success "Erlang"
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git && print_success "Elixir"
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git && print_success "NodeJS"
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
 print_success "Plugins done \n"
 
 print_in_yellow "Install the languages \n"
