@@ -20,7 +20,7 @@ ${DOTFILES_INSTALLER}/sublime-text
 
 print_in_green '\nSuccess!\n' && exit 0
 
-mkdir -p $HOME/dev/{elainenaomi,plataformatec,temp}
+mkdir -p $HOME/dev/{elainenaomi,plataformatec}
 echo "👉 Creating directories on '~/dev'..."
 
 exit 0
