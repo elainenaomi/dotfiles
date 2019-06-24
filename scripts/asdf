@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Reference: https://github.com/ulissesalmeida/dotfiles/blob/master/script/asdf
+# Reference: https://github.com/kassio/dotfiles/blob/master/install/setup-asdf
 
 source ${DOTFILES}/scripts/utils
 
@@ -19,6 +20,22 @@ asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git && print_succe
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git && print_success "Elixir"
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git && print_success "NodeJS"
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+ln -sf ${DOTFILES}/apps/asdf/.default-gems ~/.default-gems
+ln -sf ${DOTFILES}/apps/asdf/.asdfrc ~/.asdfrc
+
+RUBY_VERSION="$(asdf list-all ruby | grep "^\s*\d\.\d\.\d$" | tail -1 | tr -d ' ')"
+asdf install ruby ${RUBY_VERSION}
+asdf global ruby ${RUBY_VERSION}
+
+ELIXIR_VERSION="$(asdf list-all elixir | grep -v "rc" | sort -h | tail -1)"
+asdf install elixir ${ELIXIR_VERSION}
+asdf global elixir ${ELIXIR_VERSION}
+
+ERLANG_VERSION="$(asdf list-all erlang | grep -v "rc" | sort -h | tail -1)"
+asdf install erlang ${ERLANG_VERSION}
+asdf global erlang ${ERLANG_VERSION}
+
 
 print_success "Plugins done \n"
 
