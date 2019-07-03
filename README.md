@@ -27,3 +27,8 @@ asdf install erlang <version>
 
 If the .tool-versions are defined, just run:
 `asdf install`
+
+### Sublime Configure
+
+`Install Package Control`
+`Install Local Dependencies`
