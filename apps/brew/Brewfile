@@ -11,6 +11,7 @@ brew 'postgresql', restart_service: true
 brew 'redis', restart_service: :changed
 brew 'yarn'
 brew 'heroku'
+brew 'direnv'
 
 # asdf dependencies
 brew 'asdf'
