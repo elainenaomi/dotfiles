@@ -1,4 +1,4 @@
-# tap 'caskroom/versions'
+tap 'caskroom/versions'
 # tap 'homebrew/bundle'
 # tap 'homebrew/core'
 # tap 'homebrew/services'
@@ -10,6 +10,7 @@ brew 'git'
 brew 'postgresql', restart_service: true
 brew 'redis', restart_service: :changed
 brew 'yarn'
+brew 'heroku'
 
 # asdf dependencies
 brew 'asdf'
