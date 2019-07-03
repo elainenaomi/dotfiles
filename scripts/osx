@@ -52,7 +52,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Set default Finder path.
 # For desktop, use `PfDe`.
