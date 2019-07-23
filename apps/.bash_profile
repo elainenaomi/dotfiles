@@ -21,6 +21,7 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 alias br='bin/rspec'
 alias gitx='open -a GitX .'
