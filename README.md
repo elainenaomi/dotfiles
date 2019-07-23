@@ -32,3 +32,7 @@ If the .tool-versions are defined, just run:
 
 `Install Package Control`
 `Install Local Dependencies`
+
+### iTerm2
+
+https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
