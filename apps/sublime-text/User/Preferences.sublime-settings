@@ -7,9 +7,11 @@
 		"tmp/*",
 		"*.log",
 		".git/*",
-		"*.byebug_history"
+		"*.byebug_history",
+		"*.beam",
+		"_build/*"
 	],
-	"font_size": 18,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"
