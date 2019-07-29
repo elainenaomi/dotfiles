@@ -12,6 +12,7 @@ brew 'redis', restart_service: :changed
 brew 'yarn'
 brew 'heroku'
 brew 'direnv'
+brew 'TomAnthony/brews/itermocil'
 
 # asdf dependencies
 brew 'asdf'

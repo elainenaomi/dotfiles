@@ -36,3 +36,17 @@ If the .tool-versions are defined, just run:
 ### iTerm2
 
 https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+
+
+### iTermocil
+```
+# Create your layout directory
+$ mkdir ~/.itermocil
+
+# Edit ~/.itermocil/sample.yml (look for sample layouts in this very `README.md`)
+# There are also a variety of example files in 'test_layouts' directory in this repo
+$ itermocil --edit sample
+
+# Run your newly-created sample layout
+$ itermocil sample
+```
