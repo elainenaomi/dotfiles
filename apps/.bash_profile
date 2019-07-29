@@ -26,7 +26,7 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 alias br='bin/rspec'
 alias gitx='open -a GitX .'
 alias be='bundle exec'
-alias rk='brew services restart kafka'
+alias run-kafka-run='brew services restart kafka && brew services restart zookeeper'
 
 alias mxpx='mix phx.server'
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
