@@ -10,7 +10,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 export PGHOST=localhost
-export PS1="\[\033[01;32m\]\w\\e[31m\$(parse_git_branch)\[\033[00m\] $ "
+export PS1="\[\033[1;32m\] \w\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PATH="/usr/local/Cellar/postgresql@9.6/9.6.7/bin:$PATH"
 export EDITOR="subl"
 export VISUAL="subl"
