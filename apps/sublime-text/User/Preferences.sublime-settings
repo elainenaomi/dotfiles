@@ -14,6 +14,8 @@
 	"font_size": 16,
 	"ignored_packages":
 	[
+		"RuboCop",
+		"SublimeLinter-rubocop",
 		"Vintage"
 	],
 	"rulers":
