@@ -63,5 +63,6 @@ mas 'Wunderlist', id: 410628904
 mas 'Shush', id: 496437906
 mas 'Lastpass Password Manager', id:926036361
 mas 'Clocker', id: 1056643111
+mas 'XCode', id: 497799835
 
 brew 'graphviz'
