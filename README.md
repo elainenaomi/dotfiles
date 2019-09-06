@@ -55,3 +55,7 @@ $ itermocil sample
 
 git config --global core.excludesfile ~/.dotfiles/apps/git/.gitignore
 Ref: https://twitter.com/CaiqueMitsuoka/status/1000068281267572743
+
+### VSCode
+
+Use the `Settings Sync` Extension
