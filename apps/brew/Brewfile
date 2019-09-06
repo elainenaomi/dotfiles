@@ -28,6 +28,7 @@ brew 'unixodbc'
 brew 'unzip'
 brew 'curl'
 brew 'gpg'
+brew 'wxmac' # observer or debugger
 
 cask 'boostnote'
 cask 'clockify'

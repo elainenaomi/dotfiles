@@ -50,3 +50,8 @@ $ itermocil --edit sample
 # Run your newly-created sample layout
 $ itermocil sample
 ```
+
+### Github
+
+git config --global core.excludesfile ~/.dotfiles/apps/git/.gitignore
+Ref: https://twitter.com/CaiqueMitsuoka/status/1000068281267572743

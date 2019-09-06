@@ -16,3 +16,4 @@
   path = ~/.gitconfig.work
 [core]
 	editor = vi
+	excludesfile = /Users/elainewatanabe/.dotfiles/apps/git/.gitignore
