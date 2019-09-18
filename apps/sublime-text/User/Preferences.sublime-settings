@@ -9,7 +9,8 @@
 		".git/*",
 		"*.byebug_history",
 		"*.beam",
-		"_build/*"
+		"_build/*",
+    ".elixir_ls/*",
 	],
 	"font_size": 16,
 	"ignored_packages":
