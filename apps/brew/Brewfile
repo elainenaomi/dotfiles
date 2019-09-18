@@ -6,6 +6,7 @@ tap 'caskroom/versions'
 brew 'bash'
 brew 'bash-completion'
 brew 'git'
+brew 'htop'
 
 brew 'postgresql', restart_service: true
 brew 'redis', restart_service: :changed
