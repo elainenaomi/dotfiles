@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+t t",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run All Tests"
+  },
+  {
+    "key": "cmd+t f",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Test Current File"
+  },
+  {
+    "key": "cmd+t c",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Current Test"
+  },
+  {
+    "key": "cmd+t a",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Store Current Test"
+  },
+  {
+    "key": "cmd+t shift+a",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Store Current Test File"
+  },
+  {
+    "key": "cmd+t s",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Stored Test"
+  },
+  {
+    "key": "cmd+t d",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Delete Stored Test"
+  }
+]
