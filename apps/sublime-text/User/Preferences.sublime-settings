@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -10,7 +10,8 @@
 		"*.byebug_history",
 		"*.beam",
 		"_build/*",
-    ".elixir_ls/*",
+		".elixir_ls/*",
+		"*/node_modules/*"
 	],
 	"font_size": 16,
 	"ignored_packages":
@@ -22,7 +23,8 @@
 	"rulers":
 	[
 		80,
-		118
+    98,
+		120
 	],
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",

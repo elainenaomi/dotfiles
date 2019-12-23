@@ -6,16 +6,21 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"ayu",
 		"BracketHighlighter",
+		"Brackets Color Scheme",
 		"Compare Side-By-Side",
 		"Copy Filepath With Line Numbers",
+		"CSS Format",
 		"Elixir",
 		"ElixirFormatter",
 		"ElixirSublime",
 		"ElixirSyntax",
 		"ElixirTest",
 		"FileIcons",
+		"Github Color Theme",
 		"GitHubinator",
+		"GraphQL",
 		"Highlight",
 		"JSON Reindent",
 		"Package Control",
@@ -33,7 +38,9 @@
 		"SublimeLinter",
 		"SublimeLinter-rubocop",
 		"SuperElixir",
+		"Swift",
 		"TestRSpec",
+		"Theme - Spacegray",
 		"TomDoc"
 	]
 }
