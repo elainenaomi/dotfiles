@@ -4,6 +4,8 @@
 <dict>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -412,7 +414,7 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>205 457 735 382 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 363 620 392 0 0 1440 877 </string>
+	<string>443 1398 620 392 -207 900 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -420,7 +422,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 877 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 23 1440 854 0 0 1440 877 </string>
+	<string>0 0 1440 877 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1276,9 +1278,11 @@
 	<array>
 		<string>3.3.6</string>
 		<string>3.3.4</string>
+		<string>3.3.8</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
+		<string>3.3.7</string>
 		<string>3.3.0</string>
 		<string>3.2.9</string>
 		<string>3.3.2</string>
@@ -1295,7 +1299,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>9425EC5C-A7CC-4FE9-BE53-07AF8BA4D4C4</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>34</integer>
+	<integer>58</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1908,32 +1912,6 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory</key>
-	<array>
-		<string>search:</string>
-		<string>searcj</string>
-		<string>algolia</string>
-		<string>allgo</string>
-		<string>helper</string>
-		<string>unused</string>
-		<string>result</string>
-		<string>no se</string>
-		<string>producs</string>
-		<string>shared o</string>
-	</array>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>2.5.7</string>
-		<string>ruby-2.</string>
-		<string>launchd</string>
-		<string>shop</string>
-		<string>promt</string>
-		<string>/flash_sales/30-percent-off-mens-3642</string>
-		<string>mens;</string>
-		<string>authenti</string>
-		<string>prismic</string>
-		<string>newest_editors_picks</string>
-	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>582779982.34165299</real>
 	<key>OpenArrangementAtStartup</key>
@@ -1988,7 +1966,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-11-05T14:18:47Z</date>
+	<date>2020-02-05T18:24:56Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -4737,6 +4715,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.8</string>
 </dict>
 </plist>
