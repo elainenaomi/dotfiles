@@ -111,7 +111,7 @@ defaults write com.apple.dock autohide -bool true
 # Adds a Found this computer? message to the login screen (for machine recovery)
 sudo defaults write /Library/Preferences/com.apple.loginwindow \
    LoginwindowText \
-   "Found this computer? Please contact Elaine Naomi Watanabe at elaine.watanabe@plataformatec.com"
+   "Found this computer? Please contact Elaine Naomi Watanabe at elaine.n.watanabe@gmail.com"
 
 
 # Enable Firewall

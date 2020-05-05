@@ -5,6 +5,8 @@
   s = status
   br = branch
   fpr = fetch --prune
+  sw = switch
+  r = restore
 
 [github]
   user = elainenaomi
@@ -15,5 +17,6 @@
 [includeIf "gitdir:~/dev/plataformatec/"]
   path = ~/.gitconfig.work
 [core]
-	editor = vi
-	excludesfile = /Users/elainewatanabe/.dotfiles/apps/git/.gitignore
+  editor = vi
+  excludesfile = /Users/elainenaomi/.dotfiles/apps/git/.gitignore
+  pager = "diff-so-fancy | less --tabs=4 -RFX"

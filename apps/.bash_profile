@@ -49,3 +49,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=~/go
 export PATH=$PATH:$GOPATH/bin
 eval "$(direnv hook bash)"
+
+. $HOME/.asdf/asdf.sh
+
+. $HOME/.asdf/completions/asdf.bash

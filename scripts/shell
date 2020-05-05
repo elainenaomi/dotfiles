@@ -3,8 +3,10 @@ source ${DOTFILES}/scripts/utils
 
 print_in_yellow '\nSetting up - shell - configuration... '
 
-ln -sf ${DOTFILES}/apps/.bash_profile ~/.bash_profile
+ln -sf ${DOTFILES}/apps/.zshrc ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ln -sf ${DOTFILES}/apps/elainenaomi.zsh-theme ~/.oh-my-zsh/themes/
 
-source $HOME/.bash_profile
+source $HOME/.zshrc
 
 print_success

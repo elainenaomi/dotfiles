@@ -1,19 +1,21 @@
-tap 'caskroom/versions'
-# tap 'homebrew/bundle'
-# tap 'homebrew/core'
-# tap 'homebrew/services'
+tap 'homebrew/cask-versions'
 
 brew 'bash'
 brew 'bash-completion'
 brew 'git'
 brew 'htop'
 
-brew 'postgresql', restart_service: true
-brew 'redis', restart_service: :changed
+brew 'postgresql@9.6', restart_service: true
+brew 'redis@3.2', restart_service: :changed
 brew 'yarn'
 brew 'heroku'
+brew 'heroku/brew/heroku'
 brew 'direnv'
-brew 'TomAnthony/brews/itermocil'
+brew 'diff-so-fancy'
+brew 'github/gh/gh'
+
+tap 'tomanthony/brews'
+brew 'tomanthony/brews/itermocil'
 
 # asdf dependencies
 brew 'asdf'
@@ -33,37 +35,27 @@ brew 'wxmac' # observer or debugger
 
 cask 'boostnote'
 cask 'clockify'
-cask 'rowanj-gitx'
-cask 'fork'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'karabiner-elements'
 cask 'iterm2'
 cask 'rescuetime'
-cask 'recordit'
 cask 'sequel-pro'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
 cask 'sublime-text'
 cask 'visual-studio-code'
-cask 'fliqlo'
 cask 'xmind'
 cask 'firefox'
-cask 'grammarly'
 cask 'psequel'
 cask 'authy'
 cask 'adobe-acrobat-reader'
-cask 'chromedriver'
-cask 'graphql-ide'
 
 brew 'mas'
 
 mas 'Keynote', id: 409183694
 mas 'Trello', id: 1278508951
 mas 'Wunderlist', id: 410628904
-mas 'Shush', id: 496437906
-mas 'Lastpass Password Manager', id:926036361
 mas 'Clocker', id: 1056643111
 mas 'XCode', id: 497799835
 

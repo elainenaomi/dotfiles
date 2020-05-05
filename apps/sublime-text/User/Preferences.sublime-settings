@@ -13,17 +13,18 @@
 		".elixir_ls/*",
 		"*/node_modules/*"
 	],
-	"font_size": 16,
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"RuboCop",
+		"SublimeERB",
 		"SublimeLinter-rubocop",
 		"Vintage"
 	],
 	"rulers":
 	[
 		80,
-    98,
+		98,
 		120
 	],
 	"tab_size": 2,

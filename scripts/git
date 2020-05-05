@@ -7,5 +7,6 @@ print_in_yellow '\nSetting up - git - configuration... '
 ln -sf ${DOTFILES}/apps/git/.gitconfig ~/.gitconfig
 ln -sf ${DOTFILES}/apps/git/.gitconfig.personal ~/.gitconfig.personal
 ln -sf ${DOTFILES}/apps/git/.gitconfig.work ~/.gitconfig.work
+ln -sf ${DOTFILES}/apps/git/.gitconfig.trr ~/.gitconfig.trr
 
 print_success

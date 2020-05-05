@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"ayu",
 		"BracketHighlighter",
@@ -25,11 +26,9 @@
 		"JSON Reindent",
 		"Package Control",
 		"Prevent Duplicate Windows",
-		"Rails Developer Snippets",
 		"RemoveLineBreaks",
 		"RSpec",
 		"RuboCop",
-		"Ruby on Rails snippets",
 		"Ruby Slim",
 		"Sass",
 		"SideBarEnhancements",
