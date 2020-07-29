@@ -13,7 +13,7 @@
 		".elixir_ls/*",
 		"*/node_modules/*"
 	],
-	"font_size": 17,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"RuboCop",

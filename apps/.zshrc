@@ -114,6 +114,7 @@ alias bs='brew services list'
 alias br='bin/rspec'
 alias pngcrush='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/pngcrush'
 alias run-kafka-run='brew services stop kafka && brew services stop zookeeper && brew services start zookeeper && brew services start kafka'
+alias yt="yarn --cwd assets run test"
 
 # Newer versions of MacOS have their own SSL/TLS libraries, so you need to explicitly configure
 # the compiler and linker to use OpenSSL. Some software installed by brew will require this
