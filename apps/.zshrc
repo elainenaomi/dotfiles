@@ -137,6 +137,8 @@ export ERL_AFLAGS="-kernel shell_history enabled"
  # For dialyzer
 export KERL_BUILD_PLT=true
 
+# To build elixir and erlang docs
+export KERL_BUILD_DOCS=yes
 
 # TRR
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
