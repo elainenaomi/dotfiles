@@ -148,3 +148,6 @@ export PATH=$PATH:$GOPATH/bin
 
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 # export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+
+export PATH=~/Library/Android/sdk/tools:$PATH
+export PATH=~/Library/Android/sdk/platform-tools:$PATH
