@@ -17,6 +17,10 @@
 
 [includeIf "gitdir:~/dev/plataformatec/"]
   path = ~/.gitconfig.work
+
+[includeIf "gitdir:~/dev/therealreal/"]
+  path = ~/.gitconfig.trr
+
 [core]
   editor = vi
   excludesfile = /Users/elainenaomi/.dotfiles/apps/git/.gitignore

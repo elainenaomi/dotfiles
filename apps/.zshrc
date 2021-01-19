@@ -153,3 +153,4 @@ export PATH=$PATH:$GOPATH/bin
 
 export PATH=~/Library/Android/sdk/tools:$PATH
 export PATH=~/Library/Android/sdk/platform-tools:$PATH
+export EDITOR=/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron
